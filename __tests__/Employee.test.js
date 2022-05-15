@@ -28,7 +28,7 @@ test('Get Employee getEmail()', () => {
     expect(employee.getEmail()).toEqual(expect.any(String));
 });
 
-// Override Company Role toEqual Employee
+// Override getRole() toEqual Employee
 test('Get Employee getRole()', () => {
     const employee = new Employee('Jeffrey', 17, 'jeffreymiyoung@aol.com');
 

@@ -14,7 +14,7 @@ test('Check getSchool()', () => {
     expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school.toString()));
 });
 
-// Override getRole() to equal Intern
+// Override getRole() toEqual Intern
 test('Get Employee getRole()', () => {
     const intern = new Intern('Jeffrey', 17, 'jeffreymiyoung@aol.com', 'Felician University')
 

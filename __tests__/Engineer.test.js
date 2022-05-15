@@ -14,7 +14,7 @@ test('checks getGitHub()', () => {
     expect(engineer.getGitHub()).toEqual(expect.stringContaining(engineer.github.toString()));
 });
 
-// Override Company Role toEqual Engineer
+// Override getRole() toEqual Engineer
 test('Get Employee getRole()', () => {
     const engineer = new Engineer('Jeffrey', 17, 'jeffreymiyoung@aol.com', 'jeffymiyoung');
 
