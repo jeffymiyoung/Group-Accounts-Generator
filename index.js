@@ -197,6 +197,28 @@ const employeePrompt = () => {
     })
 };
 
+// writeFile to /dist with data from prompt and templateHTML
+const writeFile = data => {
+    fs.writeFile('./dist/index.html', data, err => {
+
+        // error catching
+        if (err) {
+            console.log(err);
+            return;
+        } else {
+            console.log("Your Company Accounts Profile has been successfully created! Please check out the index.html!");
+        }
+    })
+};
+
 managerPrompt()
-    .then(employeePrompt);
-    
+    .then(employeePrompt)
+    .then(teamArray => {
+        return templateHTML(teamArray);
+    })
+    .then(pageHTML => {
+        return writeFile(pageHTML);
+    })
+    .catch(err => {
+        console.log(err);
+    });
