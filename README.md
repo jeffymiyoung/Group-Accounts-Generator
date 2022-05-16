@@ -29,7 +29,12 @@ Outcome:
 
 
 Example Video:
-![This is an example video of the inquirer prompt through index.js.](./assets/giphy-1.mp4);
+
+![This is an example video of the inquirer prompt through index.js.](./assets/giphy-1.gif);
+
+![This is an example video of the inquirer prompt through index.js.](./assets/giphy-2.gif);
+
+![This is an example video of the inquirer prompt through index.js.](./assets/giphy-3.gif);
 
 ## Installation:
 `npm init`
