@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #ff4137;
+    padding: 32px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.fa-solid {
+    margin-right: 5px;
+}
+
+.card-header {
+    background-color: #1b7ced;
+    color: white;
+}
