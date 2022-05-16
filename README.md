@@ -29,7 +29,7 @@ Outcome:
 
 
 Example Video:
-![This is an example video of the inquirer prompt through index.js.](./assets/screen%20recording.mp4);
+![This is an example video of the inquirer prompt through index.js.](./assets/giphy-1.mp4);
 
 ## Installation:
 `npm init`
