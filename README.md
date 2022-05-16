@@ -28,7 +28,8 @@ Outcome:
 ![This is a screenshot of the finished Employee Page after going through the index.js inquirer prompt.](./assets/Homepage.JPG);
 
 
-Example Video:
+Example Video: https://www.youtube.com/watch?v=PXHQzttA_4w
+
 
 ![This is an example video of the inquirer prompt through index.js.](./assets/giphy-1.gif);
 
