@@ -25,17 +25,17 @@ As a Company Leader or CEO, have you ever wanted to create an Employee Info Page
 ## Screenshot:
 Outcome:
 
-![This is a screenshot of the finished Employee Page after going through the index.js inquirer prompt.](./assets/Homepage.JPG);
+![This is a screenshot of the finished Employee Page after going through the index.js inquirer prompt.](./assets/Homepage.JPG)
 
 
 Example Video: https://www.youtube.com/watch?v=PXHQzttA_4w
 
 
-![This is an example video of the inquirer prompt through index.js.](./assets/giphy-1.gif);
+![This is an example video of the inquirer prompt through index.js.](./assets/giphy-1.gif)
 
-![This is an example video of the inquirer prompt through index.js.](./assets/giphy-2.gif);
+![This is an example video of the inquirer prompt through index.js.](./assets/giphy-2.gif)
 
-![This is an example video of the inquirer prompt through index.js.](./assets/giphy-3.gif);
+![This is an example video of the inquirer prompt through index.js.](./assets/giphy-3.gif)
 
 ## Installation:
 `npm init`
@@ -45,7 +45,13 @@ Example Video: https://www.youtube.com/watch?v=PXHQzttA_4w
 `npm install jest --save-dev`
 
 ## Usage:
-Clone this repository onto your local machine from GitHub. Open and make sure you are in the appropriate terminal/working directory. Run the [Installation](#installation) commands. Once downloaded run the prompt questionnaire with `node index.js`. Answer the following prompts and your newly created `index.html` will be located in the /dist directory.
+* Clone this repository onto your local machine from GitHub. 
+
+* Open and make sure you are in the appropriate terminal/working directory. Run the [Installation](#installation) commands. 
+
+* Once downloaded run the prompt questionnaire with `node index.js`. 
+
+* Answer the following prompts and your newly created `index.html` will be located in the /dist directory.
 
 ## Author(s):
 * Jeffrey Young
